@@ -16,7 +16,7 @@ export namespace WASMTK {
 
   interface LoaderOptions {
     optimize: boolean;
-    importObject?: ImportObject
+    importObject?: ImportObject;
   }
 
   interface ImportObject {

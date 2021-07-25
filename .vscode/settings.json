@@ -1,0 +1,10 @@
+{
+  "deno.enable": true,
+  "deno.lint": true,
+  "deno.unstable": true,
+  "deno.suggest.imports.hosts": {
+    "https://esm.sh": false,
+    "https://deno.land": false
+  },
+  "python.formatting.provider": "yapf"
+}

@@ -1,7 +1,7 @@
 import type { WASMTK } from "../types.d.ts";
 import binaryen from "https://esm.sh/binaryen";
 import wabtFn from "https://esm.sh/wabt";
-import { maxMemoryCheck, stripComments } from "./internal//utils.ts";
+import { maxMemoryCheck, stripComments } from "./internal/utils.ts";
 
 /**
  * @param
